@@ -1,0 +1,94 @@
+body {
+   background-color: hsl(217, 54%, 11%);
+   color: hsl(215, 51%, 70%);
+   font-family: "Outfit", sans-serif;
+   text-align: center;
+}
+
+hr {
+   border: none;
+   border-top: 3px solid hsl(215, 32%, 27%);
+   margin: 20px auto 0;
+}
+
+.container {
+   background-color: hsl(216, 50%, 16%);
+   border-radius: 10px;
+   width: 350px;
+   margin: 7% auto;
+   padding: 1.5rem;
+   text-align: left;
+}
+
+.equilibrium-section {
+   position: relative;
+   cursor: pointer;
+}
+
+.equilibrium-image {
+   border-radius: 10px;
+   width: 100%;
+}
+
+.equilibrium-hover {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: hsl(178, 100%, 50%);
+   border-radius: 10px;
+   opacity: 0;
+}
+
+.equilibrium-hover:hover {
+   opacity: 0.6;
+}
+
+.equilibrium-hover img {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.item-name {
+   color: #fff;
+   cursor: pointer;
+}
+
+.item-name:hover {
+   color: hsl(178, 100%, 50%);
+}
+
+.eth-section {
+   display: flex;
+   justify-content: space-between;
+}
+
+.eth-text {
+   color: hsl(178, 100%, 50%);
+}
+
+.creation-section {
+   display: flex;
+   align-items: center;
+}
+
+.avatar-image {
+   border: 1px solid white;
+   border-radius: 100%;
+}
+
+.creation-text {
+   display: inline-block;
+   margin-left: 4%;
+}
+
+.creator {
+   color: #fff;
+   cursor: pointer;
+}
+
+.creator:hover {
+   color: hsl(178, 100%, 50%);
+}
